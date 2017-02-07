@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', {
     title: 'Lab 3',
-    message: 'Node home page'
+    message: 'COMP2106 | Advance Server Side Scripting'
   });
 });
 
